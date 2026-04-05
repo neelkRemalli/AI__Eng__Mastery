@@ -48,9 +48,5 @@ API-First Intelligence: Integrating Gemini 3 Flash (via Google AI Studio) to pro
 
 ---
 
-## ⚙️ How to Run Lab 01
-1. **Clone the Repo:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/ai-system-architect-lab01.git](https://github.com/YOUR_USERNAME/ai-system-architect-lab01.git)
-# AI_System-_Architect-
-# AI_System-_Architect-
+
+
