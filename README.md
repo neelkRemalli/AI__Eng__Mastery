@@ -48,6 +48,7 @@ Architectural Decoupling: Implement a "Model-Agnostic" backend via OpenRouter to
 Stateless Execution: Leveraging memory buffers (BytesIO) to process images in-RAM, ensuring high speed and compatibility with ephemeral cloud environments like Hugging Face.
 CSS Injection for Branding: Utilizing advanced CSS overrides to transform a standard Gradio layout into a professional, branded dashboard
 - **Status:** 📅 completed
+Live Demo:https://huggingface.co/spaces/neelkRemalli/Calories_Tracker
 
 ### [Lab 05] - Agentic Workflows & Tool Use
 - **Objective:** Building an AI agent that can execute Python code and search the web.
