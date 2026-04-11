@@ -31,17 +31,23 @@ Elastic Vector Storage: Utilizing Google Drive as a persistent storage layer for
 API-First Intelligence: Integrating Gemini 3 Flash (via Google AI Studio) to provide low-latency, high-reasoning capabilities while staying within the generous free-tier quotas available in 2026.
 - **Status:** 📅 Completed
 
-### [Lab 03] - System Architecture & Load Balancing
-- **Objective:** Objective: Building an AI agent that can execute Python code and search the web.
-
-
-- **Core Concepts:** Function Calling, ReAct Logic, Autonomous Agents.
+### [Lab 03] - Get Weather
+- **Objective:** Manual Orchestration: Understanding how to bridge the gap between LLM reasoning and Python execution without using high-level frameworks like LangChain.
+Structured Output Control: Forcing the LLM to adhere to a specific JSON schema for reliable parsing.
+Introspection: Using Python's inspect module to dynamically generate tool definitions from function signatures.
+- **Core Concepts:** The ReAct Loop (Think/Act/Observe): The model thinks about the query, acts by generating a TOOL_CALL, and expects the system to provide an observation (the result).
+Function Schemas: Converting Python logic into a language the LLM understands (JSON description of parameters and types).
+Parsing Strategy: Using Regular Expressions (re) to isolate structured commands from unstructured conversational text.
 - **Status:** 📅 Completed
 
 ### [Lab 04] - Agentic Workflows & Tool Use
-- **Objective:** Building an AI agent that can execute Python code and search the web.
-- **Core Concepts:** Function Calling, ReAct Logic, Autonomous Agents.
-- **Status:** 📅 Planned
+- **Objective:** Computer Vision Integration: Bridge the gap between raw visual data and nutritional intelligence using GPT-4o-Vision.
+Seamless UX/UI: Provide a high-performance, responsive interface using Gradio for real-time user interaction.
+Architectural Decoupling: Implement a "Model-Agnostic" backend via OpenRouter to ensure the system can swap LLM providers without code refactoring.
+- **Core Concepts:** Vision-to-JSON Pipeline: The system bypasses traditional OCR by using multimodal LLMs to interpret food volume and type directly into structured JSON.
+Stateless Execution: Leveraging memory buffers (BytesIO) to process images in-RAM, ensuring high speed and compatibility with ephemeral cloud environments like Hugging Face.
+CSS Injection for Branding: Utilizing advanced CSS overrides to transform a standard Gradio layout into a professional, branded dashboard
+- **Status:** 📅 completed
 
 ### [Lab 05] - Agentic Workflows & Tool Use
 - **Objective:** Building an AI agent that can execute Python code and search the web.
